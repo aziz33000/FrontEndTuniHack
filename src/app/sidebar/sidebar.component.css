@@ -1,0 +1,9 @@
+.example-container {
+    margin: 10px;
+  }
+mat-drawer{
+  background-image: linear-gradient(to right, rgb(54, 0, 32) , rgb(22, 0, 15));
+}
+.material-icons.white000 { color: rgb(243, 243, 243);
+  padding-left: 40%;
+  padding-top: 30%;  }

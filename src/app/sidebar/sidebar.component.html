@@ -1,0 +1,19 @@
+<mat-drawer-container class="example-container" hasBackdrop="True">
+    <mat-drawer #drawer mode="Over">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" style="color:white;" href="#">Tout</a>
+        </li>
+        <li class="nav-item">
+            <i class="material-icons white000">commute</i>
+        </li>
+        <li class="nav-item">
+          <i class="material-icons white000">local_hospital</i>
+        </li>
+        <li class="nav-item">
+            <i class="material-icons white000">school</i>
+        </li>
+      </ul>
+    </mat-drawer>
+    <mat-drawer-content><div (mouseenter)="drawer.toggle()"> <img src="/src/assets/fibelek.png" style="height:30px;"> </div><app-content></app-content></mat-drawer-content>
+</mat-drawer-container>
